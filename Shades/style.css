@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    border: 0;
+}
+body {
+    background-color: rgb(199, 218, 230);
+    padding: 1rem 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+h1 {
+    background-color: black;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: rgb(199, 218, 230);;
+}
+@keyframes example {
+    0% {color: red;}
+    25% {color: yellow; letter-spacing: 3px; text-shadow: 0 4px 3px rgb(64, 33, 177);}
+    50% {color: blue; letter-spacing: 2px; text-shadow: 0 4px 3px rgb(64, 33, 177)}
+    75% {color: green; letter-spacing: 1px; text-shadow: 0 4px 3px rgb(64, 33, 177)}
+    100% {color: red; text-shadow: 0 2px 3px rgb(64, 33, 177)}
+}
+.branding {
+    display: flex;
+}
+.navbar h1 {
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    color: rgb(22, 22, 129);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+li a:hover {
+    color: rgb(56, 39, 33);
+    text-decoration: overline;
+}
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.getstart{
+    padding: 12px;
+    color: rgb(22, 22, 129);
+    border:2px solid rgb(22, 22, 129);
+    background-color: transparent;
+}
+.getstart:hover {
+    background-color: rgb(64, 33, 177);
+    color: #fff;
+    border: 1;
+}
+.main {
+    padding-top: 5rem;
+    text-align: center;
+    font-size: x-large;
+    line-height: 9vh;
+}
+input {
+    padding: 1rem;
+}
+#submit {
+    background-color: orangered;
+    color: white;
+    padding: 1rem; 
+    border-radius: 50%;
+
+}
+#submit:hover {
+    background-color: rgb(64, 33, 177);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    padding-top: 5rem;
+}
